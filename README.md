@@ -8,6 +8,8 @@
     + [Part 2- Building the model](#part-2--Building-the-model)
     + [Part 3- Model Limitations and Conclusion](#part-3--model-limitations-and-conclusion)
     
+<img src='./images/image6.jpg' width=200>
+    
     
 ### Credits: 
 A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg), [Codebasics](https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ), [Krish Naik](https://www.youtube.com/user/krishnaik06), [Keith Galli](https://www.youtube.com/channel/UCq6XkhO5SZ66N04IcPbqNcw)  and to the whole [Edureka Team](https://www.youtube.com/user/edurekaIN) who put a lot of effort to teach people Data Science, Machine Learning, Statistics and a lot of other related topics for free.
