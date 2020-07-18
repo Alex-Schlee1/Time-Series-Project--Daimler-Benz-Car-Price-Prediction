@@ -29,9 +29,9 @@ The be able to develop a forecast, we need to take a look on the previous data. 
 
 <img src='./images/image1.png' width=700>
 
-After saving the necessary data, I saved it in a cav file and opened it by using the Python's pandas package:
+After saving the necessary data, I saved it in a csv file and opened it by using the Python's pandas package:
 
-<img src='./images/image2.PNG' width=700>
+<img src='./images/image2.PNG' width=300>
 
 
 Visualization of the scraped data in a graph: 
@@ -74,7 +74,7 @@ Even if the orange line does not lie exactly on the blue line and deviations can
 
 Finally, we can try to predict the sales of the next 24 months:
 
-<img src='./images/image5.PNG' width=700>
+<img src='./images/Capture5.PNG' width=700>
 
 
 ## Part 3- Model Limitations and Conclusion
