@@ -31,12 +31,26 @@ The be able to develop a forecast, we need to take a look on the previous data. 
 
 After saving the necessary data, I saved it in a cav file and opened it by using the Python's pandas package:
 
-<img src='./images/image2.png' width=700>
+<img src='./images/image2.PNG' width=700>
 
 
 Visualization of the scraped data in a graph: 
 
-<img src='./images/image3.png' width=700>
+<img src='./images/image3.PNG' width=700>
+
+
+## Part 2- Building the model
+
+
+When you build a time series model it is important to check the data for stationarity. In statistics, stationarity means that the mean and the standard deviation are constant and that there is no seasonality. 
+
+To check if our time series is stationary or non- stationary, we can use the "Augmented Dickey-Fuller test" which is a widely used test to approach this use case. 
+
+
+
+
+
+
 
 
 
