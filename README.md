@@ -44,11 +44,26 @@ Visualization of the scraped data in a graph:
 
 When you build a time series model it is important to check the data for stationarity. In statistics, stationarity means that the mean and the standard deviation are constant and that there is no seasonality. 
 
-To check if our time series is stationary or non- stationary, we can use the "Augmented Dickey-Fuller test" which is a widely used test to approach this use case. 
+To check if our time series is stationary or non- stationary, we can use the "Augmented Dickey-Fuller Test" which is a widely used test to approach this use case. 
+Next, we make 2 hypothesis:
 
+Null Hypothesis(H0): Our data is not stationary
+Alternate Hypothesis(H1): Out data is stationary
 
+To check which hypothesis is present in our use case we take on look on the p-value
 
+p-value < 0.05: We reject the Null Hypothesis. The data is stationary
+p-value > 0.05: We accept the Null Hypothesis. The data is not stationary.
 
+By using the "adfuller package" from "Statsmodels", we get a p-value of 0.64. That means that we accpept the H0- Hypothesis. Hence, the data is not stationary. 
+
+In the next step, we have to make the data stationary. 
+
+In order to proceed and being able to forecast the sales for the future, it is necessary to transform the data with the goal to make it stationary.   
+
+One of the common methods to make that happen is to take the difference between an existing value and the previous one. Another transformation methods are taking the logs, the square root or the proportional change. But in our case, taking the difference seems to be enough to be able to proceed. After completing this step, we apply again the "Augmented Dickey-Fuller Test" and get a p value of 0.008 which is smaller than 0.05. That means that after the transformation step we have stationary data and can reject the H0- Hypothesis!
+
+In the future forecasting, both methods, "ARIMA" and "SARIMAX" are used in time series. Since out graph shows some kind of seasonality, we will use the "SARIMAX" approach since the "ARIMA"- method can just be applied if it is sure that no seasonal tendencies exist. 
 
 
 
