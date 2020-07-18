@@ -17,3 +17,27 @@ A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6Bh
 * Scraped previous sales data from [Goodcarbadcar.com](https://www.goodcarbadcar.net/daimler-ag-us-sales-figures/) using Python and BeautifulSoup
 * Availabe data: From January, 2005- March, 2020 (183 months)
 * Time Series: The Time Series method is a sequence of observations which is recorded at regular time intervals. This is the initial step before we can forecast future sales.
+
+
+### Code and Resources
+* Python Version: 3.8
+* Environment: Jupyter Notebook
+* Packages: BeautifulSoup, Matplotlib, Numpy, Statsmodels
+
+## Part 1- Scraping Data with BeautifulSoup
+The be able to develop a forecast, we need to take a look on the previous data. Therefore, the following table which contains sales information from January 2005- March 2020, will be scraped:
+
+<img src='./images/image1.png' width=700>
+
+After saving the necessary data, I saved it in a cav file and opened it by using the Python's pandas package:
+
+<img src='./images/image2.png' width=700>
+
+
+Visualization of the scraped data in a graph: 
+
+<img src='./images/image3.png' width=700>
+
+
+
+
