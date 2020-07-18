@@ -65,6 +65,23 @@ One of the common methods to make that happen is to take the difference between 
 
 In the future forecasting, both methods, "ARIMA" and "SARIMAX" are used in time series. Since out graph shows some kind of seasonality, we will use the "SARIMAX" approach since the "ARIMA"- method can just be applied if it is sure that no seasonal tendencies exist. 
 
+In the last two steps of this project I will implement a forecast model, using the "SARIMAX" method. 
+The following graph shows the actual and the predicted sales information of the previous 24 months: 
+
+<img src='./images/image4.PNG' width=700>
+
+Even if the orange line does not lie exactly on the blue line and deviations can be observed, it can be said that the overall correlation between the actual and the predicted values exists. 
+
+Finally, we can try to predict the sales of the next 24 months:
+
+<img src='./images/image5.PNG' width=700>
+
+
+## Part 3- Model Limitations and Conclusion
+In Summary, I scraped the car sales data of Dailmer from the last 15 years with BeautifulSoup. Afterwards the data was visualized and based on the trends of previous data I tried to predict the future sales, using the "SARIMAX" approach. Nevetheless, this is just a simple statistical model and can for sure not predict the future sales in real life since we all know that previous trends do not guarantee that that trend will be the same in the future, otherwise everyone would be successful for example in the stock market. 
+
+
+
 
 
 
