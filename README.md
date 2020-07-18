@@ -8,7 +8,7 @@
     + [Part 2- Building the model](#part-2--Building-the-model)
     + [Part 3- Model Limitations and Conclusion](#part-3--model-limitations-and-conclusion)
     
-<img src='./images/image6.jpg' width=200>
+<img src='./images/image6.jpg' width=600>
     
     
 ### Credits: 
