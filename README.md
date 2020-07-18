@@ -1,4 +1,4 @@
-# Time-Series-Project--Daimler-Benz-Car-Sales-Prediction
+# Time-Series-Project--Daimler-Car-Sales-Prediction
 
 + [Table of Contents](#sub-sub-heading-1)
     + [Credits](#credits)
