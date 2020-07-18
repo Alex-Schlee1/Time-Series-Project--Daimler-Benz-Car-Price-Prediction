@@ -31,7 +31,7 @@ The be able to develop a forecast, we need to take a look on the previous data. 
 
 After saving the necessary data, I saved it in a csv file and opened it by using the Python's pandas package:
 
-<img src='./images/image2.PNG' width=100>
+<img src='./images/image2.PNG' width=200>
 
 
 Visualization of the scraped data in a graph: 
